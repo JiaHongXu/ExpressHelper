@@ -541,7 +541,7 @@
 					2E77074B1DC4F90300AF3E59 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 63F2CDCY4B;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 0;
@@ -770,7 +770,8 @@
 			baseConfigurationReference = 7D28AFA5143F23322BB42DEB /* Pods-ExpressHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 63F2CDCY4B;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ExpressHelper/Config/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
@@ -790,8 +791,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiahong.ExpressHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4a0ebe53-a0e3-463f-af83-452d74d2ef9c";
-				PROVISIONING_PROFILE_SPECIFIER = ExpressHelper;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -800,7 +801,8 @@
 			baseConfigurationReference = FFA462057A830614411080EC /* Pods-ExpressHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 63F2CDCY4B;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ExpressHelper/Config/PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
@@ -820,8 +822,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiahong.ExpressHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "4a0ebe53-a0e3-463f-af83-452d74d2ef9c";
-				PROVISIONING_PROFILE_SPECIFIER = ExpressHelper;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
